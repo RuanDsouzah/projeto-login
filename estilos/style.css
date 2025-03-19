@@ -48,3 +48,18 @@ main{
     display: block;
     padding: 10px;
 }
+#formulario >h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p{
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+#ilogin{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#isenha{
+    border-radius: 5px;
+}
