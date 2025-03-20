@@ -64,23 +64,21 @@ main{
 .campo input:focus-within{
     background-color: white;
 }
-.campo span{
+.campo > span{
+    background-color: black;
     color: white;
-    width: 40px;
     padding: 8px;
     border: 0px;
     margin: 0px;
     border-radius: 5px 0px 0px 5px;
 }
-.campo input{
+.campo > input{
     background-color: #49a09d;
     border: 0px;
     font-size: 1em;
     height: 100%;
     width: calc(100% - 44px);
-    border-radius: 5px;
     padding: 5px;
-    padding-left: 5px;
     margin: 0px;
 
     transform: translateY(-6px);
