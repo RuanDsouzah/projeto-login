@@ -64,7 +64,7 @@ main{
 .campo input:focus-within{
     background-color: white;
 }
-.campo > span{
+.campo span{
     background-color: black;
     color: white;
     padding: 8px;
